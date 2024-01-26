@@ -25,7 +25,7 @@ const FunctionalityInput = (props: Props) => {
           type="text"
           value={hexColor}
           onChange={handleHexChange}
-          className="border basis-[75%] border-gray-400 min-w-[64px] min-h-[32px] p-1 rounded"
+          className="border basis-[75%] border-[#8A8A8A] min-w-[64px] min-h-[32px] p-1 rounded"
           />
       <div className="min-w-[64px] basis-[25%] min-h-[32px]  h-full bg-opacity-100 border border-gray-400 rounded" style={{ backgroundColor: hexColor }}></div>
           </div>

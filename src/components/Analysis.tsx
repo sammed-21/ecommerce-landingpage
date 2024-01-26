@@ -3,6 +3,7 @@ import Analysisbutton from "./Analysisbutton";
 import bag from "../assets/bag.svg";
 import ChartCard from "./ChartCard";
 import TrackingPage from "./TrackingPage";
+import circle from '../assets/circle.svg'
 type Props = {};
 
 const Analysis = (props: Props) => {
@@ -15,23 +16,23 @@ const Analysis = (props: Props) => {
 
         <div className="flex gap-2 justify-start flex-wrap items-start">
           <Analysisbutton
-            className="hover:border-[#8051FF] border-[1px] transition-all ease-in-out duration-300"
+            className="hover:border-[#8051FF] border-[2px] transition-all ease-in-out duration-300"
             text="Lifetime"
           />
           <Analysisbutton
-            className="hover:border-[#8051FF] border-[1px] transition-all ease-in-out duration-300"
+            className="hover:border-[#8051FF] border-[2px] transition-all ease-in-out duration-300"
             text="Last Week"
           />
           <Analysisbutton
-            className="hover:border-[#8051FF] border-[1px] transition-all ease-in-out duration-300"
+            className="hover:border-[#8051FF] border-[2px] transition-all ease-in-out duration-300"
             text="Last Month"
           />
           <Analysisbutton
-            className="hover:border-[#8051FF] border-[1px] transition-all ease-in-out duration-300"
+            className="hover:border-[#8051FF] border-[2px] transition-all ease-in-out duration-300"
             text="Last Year"
           />
           <Analysisbutton
-            className="hover:border-[#8051FF] border-[1px] transition-all ease-in-out duration-300"
+            className="hover:border-[#8051FF] border-[2px] transition-all ease-in-out duration-300"
             text="Customize Time Line"
             image={bag}
           />
@@ -46,7 +47,7 @@ const Analysis = (props: Props) => {
 
           <ChartCard />
           </div>
-          <div className="col-span-full lg:max-w-full md:col-span-2 lg:col-span-1  w-full bg-[#956F00] rounded-lg pt-4 pl-4 pb-6 pr-11 h-full flex flex-col justify-between relative">
+          <div className="col-span-full  lg:max-w-full md:col-span-2 lg:col-span-1  w-full bg-[#956F00] rounded-lg pt-4 pl-4 pb-6 pr-11 h-full flex flex-col justify-between relative">
             <div className="">
               <h2 className="text-sm font-[650] leading-5 text-[#FFFFFF]">
                 Star Facts about your orders!!!
@@ -65,6 +66,7 @@ const Analysis = (props: Props) => {
                   The maximum chargebacks are from Miami.
                 </span>
               </p>
+              <img src={circle} className="w-fit absolute inset-0 top-12 my-auto ml-auto right-0 h-fit object-cover" alt="image"/>
             </div>
             <div className="">
               <Analysisbutton

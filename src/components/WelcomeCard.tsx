@@ -19,18 +19,18 @@ const WelcomeCard: FC<WelcomeCardProps> = ({
   return (
     <div
       className={twMerge(
-        " w-full rounded-2xl max-w-[332px] border-2 border-gray-300 flex pt-4 px-4 pb-6 items-start self-stretch  flex-col gap-[32px] min-h-[168px]",
+        " w-full rounded-lg max-w-[332px] text-[#4A4A4A]   border-[2px] border-[#E3E3E3] flex pt-4 px-4 pb-6 items-start self-stretch  flex-col gap-[32px] min-h-[168px]",
         className
       )}
     >
       <div className="flex gap-2 flex-col justify-start items-start text-start w-full h-full">
-        <h2 className="text-[#4A4A4A] flex gap-1 text-sm font-[650] leading-5 ">
+        <h2 className=" flex gap-1 text-sm font-[650] leading-5 ">
             {image && 
-<img src={image} alt="image" className="w-fit object-cover"/>
+<img src={image} alt="image" className="w-fit max-sm:w-5 h-fit object-cover"/>
             }
           {title || "Order Sync Successful!"}
         </h2>
-        <p className="text-[13px] font-[450] leading-5 text-[#4A4A4A] ">
+        <p className="text-[13px] font-[450] leading-5   ">
           {description ||
             "Your order details from the last 30 days have been successfully synced. Check them out now!"}
         </p>

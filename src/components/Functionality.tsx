@@ -19,9 +19,10 @@ const Functionality = (props: Props) => {
           <FunctionalityColorCard />
         </div>
         <div className="w-full h-full flex-col col-span-full md:col-span-5 xl:col-span-4 flex gap-4 ">
-          <div className=" w-full  h-full    row-span-1 col-span-4">
+          <div className=" w-full     row-span-1 col-span-4">
             <WelcomeCard
-              className="min-w-full "
+            
+              className="min-w-full   border-[2px] border-[#E3E3E3] "
               title="Exclusive Onboarding Support for High-Volume Brands"
               description="Unlock personalized guidance! Book a one-on-one 
 onboarding call to streamline your experience."

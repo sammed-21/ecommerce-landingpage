@@ -5,7 +5,7 @@ type Props = {};
 
 const FunctionalityHtml = (props: Props) => {
   return (
-    <div className="p-4 flex border-2 justify-between border-gray-300 rounded-lg flex-col items-stretch self-stretch gap-y-[32px]  min-w-full">
+    <div className="p-4 flex    border-[2px] border-[#E3E3E3] justify-between   rounded-lg flex-col items-stretch self-stretch gap-y-[32px]  min-w-full">
       <div className="flex md:max-w-[310px] flex-col  gap-2">
         <h2 className="text-sm font-[650] leading-5 text-[#4A4A4A]">
           Seamlessly Integrate Custom HTML Elements{" "}

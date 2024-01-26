@@ -24,7 +24,7 @@ const FunctionalityIntegration: FC<FunctionalityIntegrationProps> = ({
   return (
     <div
       className={twMerge(
-        " w-full rounded-2xl max-w-[332px] border-2 border-gray-300 flex pt-4 px-4 pb-6 items-start self-stretch  flex-col gap-6 min-h-[168px]",
+        " w-full rounded-lg max-w-[332px]   border-[2px] border-[#E3E3E3] flex pt-4 px-4 pb-6 items-start self-stretch  flex-col gap-6 min-h-[168px]",
         className
       )}
     >

@@ -6,7 +6,7 @@ type Props = {}
 
 const TrackingPage = (props: Props) => {
   return (
-    <div className='px-4 pt-4 pb-[32px] flex flex-col gap-6 w-full h-full'>
+    <div className='px-4 border-[2px] border-[#E3E3E3] pt-4 pb-[32px] flex flex-col rounded-lg gap-6 w-full h-full'>
       <div className="flex flex-col gap-2">
         <h3 className="text-[#4A4A4A] text-sm font-[650] leading-5">Tracking Page Views Vs Orders</h3>
         <p className="text-[13px] font-[450] leading-5 text-[#4A4A4A]">Understand user engagement patterns and optimize your tracking page for enhanced customer experiences.</p>

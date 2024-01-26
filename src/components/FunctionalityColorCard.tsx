@@ -6,7 +6,7 @@ type Props = {};
 
 const FunctionalityColorCard = (props: Props) => {
   return (
-    <div className="flex  h-fit border-2 border-gray-300 rounded-lg  w-full flex-col gap-6 p-4 self-stretch items-start">
+    <div className="flex  h-fit    border-[2px] border-[#E3E3E3] rounded-lg  w-full flex-col gap-6 p-4 self-stretch items-start">
       <div className="flex flex-col w-full h-full gap-4">
         <div className="flex flex-col gap-2">
           <h2 className="text-sm font-[650] leading-5 text-[#4A4A4A]">

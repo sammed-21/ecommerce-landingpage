@@ -13,7 +13,7 @@
 // ];
 // const Navbar = (props: Props) => {
 //   return (
-//     <nav className="text-sm text-[#4A4A4A] px-[70px] flex items-center justify-between lg:flex-row w-full min-h-[56px] shadow-0  border-[1px] border-black bg-[#FFFFFF] shadow-md">
+//     <nav className="text-sm text-[#4A4A4A] px-[70px] flex items-center justify-between lg:flex-row w-full min-h-[56px] shadow-0  border-[2px] border-black bg-[#FFFFFF]  ">
 // <div className="flex lg:flex-row flex-col items-start gap-[32px] ">
 //   {navigationLinks.map((link, index) => (
 //     <a
@@ -75,7 +75,7 @@ const navigationLinks = [
 const Navbar = (props: Props) => {
   const [show, setShow]= useState(false);
   return (
-    <nav className="bg-white flex flex-col gap-1 relative h-[56px] w-full  border-[1px] border-black shadow-md items-center  ">
+    <nav className="bg-white flex flex-col gap-1 relative h-[56px] w-full  border-b-[2px] border-black   items-center  ">
       <div className="flex w-full h-full items-center justify-between lg:px-[70px]  px-[40px]">
         <div className="xl:flex flex-row hidden items-start gap-[32px] ">
           {navigationLinks.map((link, index) => (
